@@ -1,0 +1,3 @@
+CREATE TABLE counter (
+  id INT  PRIMARY KEY AUTO_INCREMENT
+);
