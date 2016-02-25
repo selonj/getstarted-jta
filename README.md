@@ -9,3 +9,10 @@
 -   [Atomikos TransactionsEssentials](http://www.atomikos.com/Main/TransactionsEssentials)
 -   [JOTM](http://jotm.ow2.org/)
 -   [Simple JTA](http://simplejta.sourceforge.net/)
+
+## Examples requirements
+
+-   set MySQL **username** and **password** were 'root' 
+-   create databases **test** and **test2**
+-   execute *[init.sql](src/test/resources/init.sql)* in both databases.
+-   Last, run command **gradle test**
